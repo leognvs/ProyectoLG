@@ -23,7 +23,7 @@ Contáctenos por problemas que puedan afectar tu gestión Empresaria, tu consult
     </section>
 
 
-<Div>
+<Div class="form">
 
 
 
@@ -43,36 +43,48 @@ Contáctenos por problemas que puedan afectar tu gestión Empresaria, tu consult
             placeholder="ejemplo@cliente.com">
     
             <!--input radio-->
-            <fieldset>
+            <fieldset class="fieldset">
                 
                 <legend>Clase de consulta</legend>
+                <div>
                 <input type="radio" 
-                id="talk-type" name="talk">Impositiva
+                id="talk-type" name="talk">Impositiva</div>
+                <div>
                 <input type="radio" 
-                id="talk-type2" name="talk">Finanzas
+                id="talk-type2" name="talk">Finanzas</div>
+                <div>
                 <input type="radio" 
-                id="talk-type2" name="talk">Otra
+                id="talk-type2" name="talk">Otra</div>
     
     
             
-    
+                <div>
             <label for="area">Comentarios</label>
+            <div>
             <textarea name="" 
             id="" cols="30" rows="10">
-            </textarea>
-
+            </textarea></div>
+        </div>
             
-            <label for="checkbox">Quiero suscribirme al newsletter del estudio
+            <label class="label" for="checkbox">Quiero suscribirme al newsletter del estudio
                     </label>
             <input type="checkbox" id="checkbox">
-    
+
+    <div>
             <button class="button" type="submit">Enviar</button>
-    
+        </div>
     
         </div>
     </Div>
     
     </form>
     
+    
+<section>
+        
+    <button class="botVolver"><a href="index.html">Volver</a> </button>
+    
+</section>
+
 </body>
 </html>
